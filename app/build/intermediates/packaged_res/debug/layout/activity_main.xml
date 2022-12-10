@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="@string/area_of_a_circle_calculator"
+        android:textColor="@color/black" />
+
+
+    <EditText
+        android:id="@+id/radiusvalues"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/enter_radius"
+        android:textAlignment="center"
+
+        />
+
+
+    <Button
+        android:id="@+id/domathbutton"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/do_the_math" />
+
+
+
+</LinearLayout>

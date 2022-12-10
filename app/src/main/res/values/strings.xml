@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CALCULATOR GROUP 3</string>
+    <string name="enter_radius">enter radius</string>
+    <string name="do_the_math">Do the Math</string>
+    <string name="textview">TextView</string>
+    <string name="area_of_a_circle_calculator">AREA OF A CIRCLE CALCULATOR</string>
+</resources>
